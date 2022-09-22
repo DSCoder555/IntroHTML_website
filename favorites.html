@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--
+    Darius Saadat favorites.html, has video file
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,38 +21,44 @@
             height: 150px;
             margin-right: 10px;
         }
-
-        .username{
-            font-weight: heavy;
-        }
         .title{
             font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <a href="index.html">Homepage</a>
+    <a href="index.html">Index</a>
     <a href="skills.html">Skills</a>
     <a href="spots.html">Spots</a>
-    <div class="tweet">
+    <article class="tweet">
         <h1>My Hobbies and Interests</h1>
-        <ul>Here are my hobbies and interests:
+        <p>Here are my hobbies and interests:</p>
+        <ul>
             <li>Playing Guitar</li>
             <li>Video Games</li>
             <li>Board/Card Games</li>
         </ul>
-    </div>
+    </article>
     
     
     <h2>Playing Guitar</h2>
     <p>I have played the guitar for over 10 years.  I play an electric acoustic guitar.  I like playing pop and rock music.  Here's a video of me playing.</p>
+    <div>
+        <video controls width="320" height="240">
+            <source src="BCS_theme.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="BCS_theme.mp4">Click here to watch the video in a bigger size.</a>
+    </div>
+    
 
     <h2>Video Games</h2>
-    <p>I like playing and making video game.  I mostly play Nintendo games on my Nintendo Switch or indie games on my PC.  I mostly make games with Unity</p>
-    <img src="Nintendo.jpg">
+    <p>I like playing and making video game.  I mostly play Nintendo games on my Nintendo Switch or indie games on my PC.  I mostly make games with Unity.</p>
+    <img src="Nintendo.jpg" alt="Image of Nintendo Logo">
+    <a href="https://www.nintendo.com/">Here is their website</a>
     <h2>Board/Card Games</h2>
     <p>My favorite board game is Risk, because it has a lot of strategy.  My favorite card game is Texas Hold 'Em, because it relies on intimidation.</p>
-    <img src="Risk.jpg" width="400">
-    <p>&copy;</p>
+    <img src="Risk.jpg" alt="Image of Risk Logo">
+    <p>This page passed HTML validation.  &copy;</p>
 </body>
 </html>

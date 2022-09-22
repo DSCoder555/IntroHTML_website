@@ -1,30 +1,62 @@
 <!DOCTYPE html>
+<!--
+    Darius Saadat, skills.html, has form
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Skill</title>
+    <style>
+        .tweet{
+            width:500px;
+            background-color:orange;
+            padding: 25px;
+            font-weight: normal;
+
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            margin-right: 10px;
+        }
+        .title{
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <a href="index.html">Homepage</a>
+    <a href="index.html">Index</a>
     <a href="favorites.html">Favorites</a>
     <a href="spots.html">Spots</a>
-    <h1>My Skill: Guitar</h1>
-    <ul>I have played Guitar for a long time.:
-        <li>Playing Guitar</li>
-        <li>Video Games</li>
-        <li>Board/Card Games</li>
+    <article class="tweet">
+        <h1>My Skill: Guitar</h1>
+        <p>I have played Guitar for a long time.  In my experience, there are two types of guitar playing.:</p>
+    <ul>
+        <li>Chord Strumming</li>
+        <li>Riff Plucking</li>
     </ul>
-    <h2>Playing Guitar</h2>
-    <p>I have played the guitar for over 10 years.  I play an electric acoustic guitar.  I like playing pop and rock music.  Here's a video of me playing.</p>
-
-    <h2>Video Games</h2>
-    <p>I like playing and making video game.  I mostly play Nintendo games on my Nintendo Switch or indie games on my PC.  I mostly make games with Unity</p>
-    <img src="Nintendo.jpg">
-    <h2>Board/Card Games</h2>
-    <p>My favorite board game is Risk, because it has a lot of strategy.  My favorite card game is Texas Hold 'Em, because it relies on intimidation.</p>
-    <img src="Risk.jpg" width="400">
-    <p>&copy;</p>
+    </article>
+    <h2>Chord Strumming</h2>
+    <p>This style involves playing two or more string at the same time, normally with one stroke of the thumb or a pick</p>
+    <img src="Chord.jpg" alt="Image of Chord Charts">
+    <a href="Chord.jpg">Click here to view this image in a bigger size.</a>
+    <h2>Riff Plucking</h2>
+    <p>This style involves playing by stroking each string seperatley, normally with different strings.</p>
+    <img src="FPluck.jpg" alt="Image of Sheet Music">
+    <a href="https://www.12fret.com/news-and-reviews/introduction-fingerstyle-guitar/">Click here to learn more about Riff Plucking.</a>
+    <div>
+        <form>
+            <input type="checkbox" id="q1" name="q1" value="a1">
+            <label for="q1"> I read this page.</label><br>
+            <input type="checkbox" id="q2" name="q2" value="a2">
+            <label for="q2"> I have played a musical instrument before.</label><br>
+            <input type="checkbox" id="q3" name="q3" value="a3">
+            <label for="q3"> I have played the guitar before.</label>
+          </form>
+    </div>
+    
+    <p>This page passed HTML validation.  &copy;</p>
 </body>
 </html>
